@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Footer from '../Components/Header/Footer/Footer'
-import TopHeader from '../Components/Header/topHeader'
+
+import Format from '../Layout/format'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,10 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <TopHeader></TopHeader>
-        <Footer></Footer>
+       
 
-
+    <Format>
+      
+    </Format>
           
         
 
