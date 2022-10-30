@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../Components/Header/Footer/Footer'
 import TopHeader from '../Components/Header/topHeader'
 import styles from '../styles/Home.module.css'
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
 
         <TopHeader></TopHeader>
+        <Footer></Footer>
 
 
           
