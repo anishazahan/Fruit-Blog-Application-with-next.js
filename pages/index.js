@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import TopHeader from '../Components/Header/topHeader'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,12 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+        <TopHeader></TopHeader>
 
 
           
-          <h1 className="text-6xl font-bold underline">
-        This is home
-        </h1>
+        
 
     </div>
   )
