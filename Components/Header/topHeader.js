@@ -1,5 +1,6 @@
 
 import styles from './topHeader.module.css'
+import { ImFacebook,ImTwitter,ImPinterest,ImGoogle} from "react-icons/im";
 function TopHeader() {
     return (
         <div className='bg-green-700'>
@@ -16,11 +17,12 @@ function TopHeader() {
                </div>
             </div>
 
-            <div className="right text-white flex space-x-5 text-left">
-                <h1>ri</h1>
-                <h1>ri</h1>
-                <h1>ri</h1>
-                <h1>ri</h1>
+            <div className="right text-white flex space-x-5 justify-start">
+                <h1><ImFacebook></ImFacebook></h1>
+                <h1><ImTwitter></ImTwitter></h1>
+                <h1><ImPinterest></ImPinterest></h1>
+                <h1><ImGoogle></ImGoogle></h1>
+               
             </div>
 
            </div>
