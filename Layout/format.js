@@ -1,15 +1,17 @@
 import Footer from "../Components/Header/Footer/Footer";
+import Navbar from "../Components/Header/Navbar";
 import TopHeader from "../Components/Header/topHeader";
 
 
 
-function Format() {
+function Format({children}) {
     return (
-        <div>
+        <>
          <TopHeader></TopHeader>
-         <main>main</main>
+         <Navbar></Navbar>
+         <main>{children}</main>
          <Footer></Footer>
-        </div>
+        </>
     );
 }
 
